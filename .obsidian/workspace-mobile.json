@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "f3d7d8ecf01f6909",
+    "type": "split",
+    "children": [
+      {
+        "id": "b91b480063f70f17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee9940b0a73bf21e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Pages/Data Link Layer.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Link Layer"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89f5a4c76e8dd887",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "317d68f884d4ee3b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "a5fa51966e4ef4ce",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "67c88d5afa444ede",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "40b9e2282de4c8c7",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "8b129aa503df71fc",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f5fc71bd949312cd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "034ff455b5374b88",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "2026-05-16.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "04542ca7de2dd8c1",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "OBS1/CN Lab/Day 3.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "6fb804b725ce15e5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "OBS1/CN Lab/Day 3.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ee9940b0a73bf21e",
+  "lastOpenFiles": [
+    "College/6thSem/CN/Class Handouts.md",
+    "College/6thSem/CN/Data Communications by Behrouz.md",
+    "College/Pages/Error Detection and Correction (WIP).md",
+    "College/6thSem/Accountancy/MODULE 3.md",
+    "College/6thSem/Accountancy/Accountancy Notes.md",
+    "College/6thSem/Accountancy/MODULE 2.md",
+    "College/6thSem/Accountancy/MODULE 5.md",
+    "College/6thSem/Accountancy/MODULE 4.md",
+    "College/6thSem/Accountancy/MODULE 1.md",
+    "College/Pages/Image Segmentation.md",
+    "College/6thSem/Image Processing/Digital Image Processing by Gonzales.md",
+    "College/Pages/Morphological Image Processing.md",
+    "College/Pages/Wavelets and Multiresolution Processing.md",
+    "College/Pages/Image Restoration.md",
+    "College/Pages/Image Compression.md",
+    "College/Pages/Intensity Transformations.md",
+    "College/Pages/Digital Image Fundamentals.md",
+    "College/6thSem/Accountancy/MODULE 1.sync-conflict-20260521-094142-VAKE7A4.md",
+    "College/6thSem/Data Mining/Date Mining by Han.md",
+    "College/Pages/Data Visualization.md",
+    "College/Pages/Data Discretization.md",
+    "College/Pages/Data Preprocessing.md",
+    "College/Pages/About the Data.md",
+    "2026-05-16.md",
+    "Untitled 1.canvas",
+    "Untitled.base",
+    "Untitled.canvas",
+    "MODULE 1.md",
+    "College/6thSem/CN/Lab Notes.md",
+    "College/6thSem/Accountancy",
+    "Projects/RADos",
+    "College/Pages/Pasted image 20260325111324.png",
+    "College/Pages/Pasted image 20260325113038.png",
+    "College/Pages/Pasted image 20260325110943.png"
+  ]
+}

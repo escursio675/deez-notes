@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: bh9ev-arety
+created: 2026-03-21T21:30:52+05:30

@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "d6f7713ee179af7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "42be3b8674c3779c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf2c8bf507f94fe5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Projects List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Projects List"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "93832e28d79635bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5fcbed54e8a3d8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1e51eef0463092d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7b1152d94479648e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5404a5261fdc12be",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1beac58eab85f84",
+    "type": "split",
+    "children": [
+      {
+        "id": "0192e890caeaa722",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c502e06e91fe89e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "College/Pages/Error Detection and Correction (WIP).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Error Detection and Correction (WIP)"
+            }
+          },
+          {
+            "id": "ecfdf3b593163fd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Implementing a GDT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Implementing a GDT"
+            }
+          },
+          {
+            "id": "21696cb77caef686",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9809cea67facdd3b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "57a0b26468b06a53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OBS1/CN Lab/Day 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Day 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b1e51eef0463092d",
+  "lastOpenFiles": [
+    "4913",
+    "Projects/pfolio.md",
+    "Projects/Projects List.md",
+    "Projects/URLambda.md",
+    "End Semester Exams.md",
+    "Imporatant TODOs.md",
+    "College/6thSem/SE/SE by Ian Sommerville.md",
+    "College/6thSem/SE/SE by Ian Sommerville.sync-conflict-20260428-173232-VAKE7A4.md",
+    "TODOs.md",
+    "College/Pages/Data Link Layer.md",
+    "College/6thSem/CN/Class Handouts.md",
+    "College/6thSem/CN/Data Communications by Behrouz.md",
+    "College/Pages/Analog Transmission.md",
+    "College/Pages/Error Detection and Correction (WIP).md",
+    "College/Pages/Transmission Media.md",
+    "College/Pages/Bandwidth Utilization- Multiplexing and Spread Spectrum.md",
+    "College/Pages/Network Models.md",
+    "College/Pages/Introduction.md",
+    "College/6thSem/Accountancy/Accountacy Assignment.md",
+    "Portfolio pointers.md",
+    "College/6thSem/Accountancy/MODULE 5.md",
+    "College/6thSem/Accountancy/MODULE 4.md",
+    "College/6thSem/Accountancy/Accountancy Notes.md",
+    "College/6thSem/Accountancy/MODULE 2.md",
+    "College/6thSem/CN/Lab Notes.md",
+    "College/Pages/Image Restoration.md",
+    "College/6thSem/Accountancy",
+    "Projects/RADos",
+    "College/Pages/Pasted image 20260507121126.png",
+    "College/Pages/Pasted image 20260507115411.png",
+    "College/Pages/Pasted image 20260507101544.png",
+    "College/Pages/Pasted image 20260506173648.png",
+    "College/Pages/Pasted image 20260506164532.png",
+    "College/Pages/Pasted image 20260506090447.png",
+    "College/Pages/image(9) 1.png",
+    "College/Pages/image(9).png",
+    "College/Pages/image(8).png",
+    "College/Pages/image(7).png",
+    "College/6thSem/Image Processing",
+    "Others/Cloud Engineering/Pages",
+    "Others/Cloud Engineering",
+    "Others",
+    "WebDev/NodeJS/NodeJSbyAaronorSum/NodePics",
+    "WebDev/NodeJS/NodeJSbyAaronorSum",
+    "WebDev/Backend/Untitled",
+    "WebDev/Backend",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "enabledCssSnippets": [
+    "highlight-color",
+    "center-image"
+  ],
+  "interfaceFontFamily": "Noto Mono,Inter",
+  "textFontFamily": "Liberation Mono,Inter"
+}

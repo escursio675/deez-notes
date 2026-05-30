@@ -1,0 +1,5 @@
+.theme-light, .theme-dark {
+  --text-highlight-bg: #8c2a2a; /* Change this color B52222*/
+  --text-highlight-bg-rgb: 181, 34, 34; /* Corresponding RGB */
+}
+
