@@ -1,2 +1,11 @@
 /*.md
 /Projects
+
+
+.obsidian
+.stfolder
+.gitignore
+.trash
+
+!README.md
+
