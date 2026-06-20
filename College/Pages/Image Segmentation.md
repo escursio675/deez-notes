@@ -38,7 +38,7 @@ R = w_1r_1 + w_2r_2 + ... + w_nr_n
 $$
 n is the dimension of the mask, $r_n$ is the intensity at point with coefficient $w_n$.
 
-The idea of detection is essentially that a point will have an intensity much different than its neighbours, only detected if the differnce is large enough as governed by T.
+The idea of detection is essentially that a point will have an intensity much different than its neighbours, only detected if the difference is large enough as governed by T.
 
 ==Note that, as usual for a derivative mask, the coefficients sum to zero, indicating that the mask response will be zero in areas of constant intensity.==
 
@@ -51,7 +51,7 @@ Detecting the _direction_ of a line is achieved by running masks with different 
 The direction is given by the maximum absolute value of the reponse of a mask associated with that particular direction.
 
 # Edge Detection
-Detecting changes in intensity for the purpose of finding edges can be accomplished using first- or second-order derivatives. Specifically, the **gradient** is givem by:
+Detecting changes in intensity for the purpose of finding edges can be accomplished using first- or second-order derivatives. Specifically, the **gradient** is given by:
 
 $$
 \nabla f(x,y)=\begin{bmatrix} g_x \\ g_y \end{bmatrix}=\begin{bmatrix} \frac{\delta f}{\delta x} \\ \frac{\delta f}{\delta y}\end{bmatrix}
@@ -290,7 +290,7 @@ T = T(x,y)
 $$
 
 ### 3. Automatic Thresholding (e.g., Otsu)
-Otsu’s method is an automatic threshold selection technique used for image segmentation. It involves assume a histogram with two classes- foreground and background, and the optimizing the value of T to best separate these classes.
+Otsu’s method is an automatic threshold selection technique used for image segmentation. It involves assuming a histogram with two classes- foreground and background, and the optimizing the value of T to best separate these classes.
 
 For a grayscale image with intensity levels 0 to L - 1:
 

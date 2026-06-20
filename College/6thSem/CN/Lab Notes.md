@@ -5,6 +5,37 @@
 3. arn -n
 4. ip (address)
 5. show ip
+
+## Step 1
+1. Connects two or more VPCs with Switches and connect two such subnets through a router
+## Step 2
+1. Right click on router -> console
+2. `enable`
+3. `configure terminal`
+4. 
+   ```
+ interface FastEthernet 0/0
+ ip address <address> <mask>
+ no shutdown
+   ```
+5. 
+```
+interface FastEthernet 0/1
+ip address <address> <mask>
+no shutdown
+```
+6. `exit`
+7. `end`
+8. `write`
+## Step 3
+1. open console for each VPC
+2. `ip <address> <mask> <default gateway>` eg, `ip 172.16.0.10 255.255.255.0 172.16.0.1`
+3. repeat for each VPC in each subnet
+
+## Step 4
+1. test connectivity between each VPC within the same subnet and different subnets through the router
+2. `ping <ip address>`
+
 # Day 4
 
  - DHCP(Dynamic Host Configuration Protocol) servers automatically assign IP addresses to end-users to prevent IP conflicts.
@@ -24,6 +55,7 @@
 2. Exclude IP Addresses 10.0.0.1 to 10.0.0.10
 3. DHCP Pool -> Network=>10.0.0.0/24, default Gateway=>10.0.0.1, DNS=>10.0.0.2, specify domain name=>("name)
 ### Commands
+setup wireshark between switch and any one VPC
 #### Step 1
 1. show running-config
 2. configure terminal
@@ -47,7 +79,7 @@
 10. show ip dhcp ?
 ### Step 4
 1. (go to gns3 interface and turn on the pc and switch to console)
-2. ip dhcp -d (shows the DORA messages)
+2. ip dhcp -d (shows the DORA messages) (the VPC must be connected through wireshark)
 3. show ip (shows the ip configurations set in the previous steps)
 ### Step 5
 1. (set up wireshark on the pc connection)
@@ -480,3 +512,53 @@ Note: Use `watch netstat -ant` to see the running services and states
 ## Lab Work
 1. Write a simple chat program in C using sockets
 2. Write a simple socket program in C to demonstrate the use of UDP sockets.
+
+
+# Socket Programming
+## Client, TCP, AF_UNIX(local domain) sockets
+1. Initialize macros for buffer size and socket location
+2. initialize `sock` through `socket` function, exit if error
+3. initialize `sockaddr_un` struct type variable, set its memory to 0, and set it's `sun_family` and `sun_path`
+4. initialize a buffer array with buffer macro size
+5. attempt connection through `connect` function, exit if error
+6. connection is successfull
+7. read from client through `fgets`, send to server using `send`
+8. read from server using `recv` and store to buffer
+9. print buffer message
+10. break if size of buffer is 0 or specific message is typed
+11. close the socket
+
+
+## Server, TCP, AF_UNIX(local domain) sockets
+1. define macros for buffer size and socket location
+2. initialize `sockaddr_un` struct, set values through 0 with `memset` and assign `sun_family` and `sun_path`
+3. initialize `server_fd` using `socket`, exit if error
+4. `UNLINK()` socket location macro for safety
+5. `bind`, `listen` and `accept`, exit if error in each case
+6. connection is successfull
+7. `recv` from client into buffer and print
+8. `fgets` into buffer and `send`
+9. break if exit condition is met
+10. close `server_fd` and `client_fd`
+11. `UNLINCK()` socket location
+
+## Client, UDP, AF_INET(IP) sockets
+1. define macros for PORT and BUFFER_SIZE
+2. define array buffer with size BUFFER_SIZE
+3. define struct sockaddr_in type addr
+4. initialize `addr.sin_family` as AF_INET and `addr.sin_PORT` as `htons` of PORT
+5. initialize `addr.sin_addr.s_addr` as `inet_addr` of "127.0.0.1"
+6. define `sock` using `socket()`
+7. define a string `message` and send it using `sendto()`
+8. initialize `int bytes` using `recvfrom()` and recieve server message into `buffer`
+9. print the message and close the socket
+
+## Server, UDP, AF_INET(IP) sockets
+1. define macros for BUFFER_SIZE and PORT
+2. initialize `struct sockaddr_in` type `serv_fd` and `client_fd`
+3. set the attributes `sin_port` to `htons` of PORT, `sin_addr.s_addr` to INADDR_ANY and `sin_family` to AF_INET
+4. initialize `serv_fd` using `socket()`
+5. use `bind()` and exit if error
+6. print the server listening message
+7. initialize `bytes` using `recvfrom`
+8. close the socket

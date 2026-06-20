@@ -1,15 +1,10 @@
 #college
 1. [[Introduction]]
 2. [[Network Models]]
-3. [[Analog Transmission]]
-4. [[Bandwidth Utilization- Multiplexing and Spread Spectrum]]
-5. [[Transmission Media]]
-6. [[Error Detection and Correction (WIP)]]
-7. 
+3. [[Bandwidth Utilization- Multiplexing and Spread Spectrum]]
+4. [[Transmission Media]]
 
 
-ARP Ch21
-
- <u>Skipped</u>
+ **Skipped:**
 - Wireless LANs(Introduction)
 - Addressing(Network Models)

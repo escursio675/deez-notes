@@ -8,4 +8,6 @@
 .trash
 
 !README.md
+!VIM-Motions.md
 
+.obsidian/

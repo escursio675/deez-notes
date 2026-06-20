@@ -1,3 +1,4 @@
+#general 
 # All of my Notes, Forever
 
 These notes will be updated once every month, or more frequently, whenever else I feel like it.

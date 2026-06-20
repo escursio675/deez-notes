@@ -14,11 +14,9 @@ The neighborhood, along with a predefined operation, is called a spatial filter 
 ### Intensity Transformation
 
 The smallest possible neighborhood is of size 1 * 1. In this case, g depends only on the value of f at a single point (x, y) and T becomes an intensity (also called gray-level or mapping) transformation function of the form
-
-
-							$s = T(r)$
-
-
+$$
+s = T(r)
+$$
 where, for simplicity in notation, s and r are variables denoting, respectively, the intensity of g and f at any point (x, y).
 
 ### Image Enhancement
@@ -181,7 +179,7 @@ The output of a smoothing, linear spatial filter is simply the average of the pi
 
 Because random noise typically consists of sharp transitions in intensity levels, the most obvious application of smoothing is noise reduction. However, edges (which almost always are desirable features of an image) also are characterized by sharp intensity transitions, so averaging filters have the undesirable side effect that they blur edges.
 
-Smoothening filters are also used to reduces irrelevant details in the image, ie, details that are smaller than the size of the filter mask. Therefore, the size of the mask is chosen as per the size of the details to be "blurred out". The expression is as follows:
+Smoothing filters are also used to reduces irrelevant details in the image, ie, details that are smaller than the size of the filter mask. Therefore, the size of the mask is chosen as per the size of the details to be "blurred out". The expression is as follows:
 
 $$
 g(x, y) = \frac{\sum_{s=-a}^a\sum_{t=-b}^b w(s, t)f(x + s, y + t)}{\sum_{s=-a}^a\sum_{t=-b}^b w(s, t)}
@@ -192,7 +190,7 @@ $$
 R = \frac{1}{mn}\sum_{i=i}^{mn}r_i
 $$
 
-Order-statistics or nonlinear filters perform smoothening based on the ranking of intensity values. A well known filter is the median filter which is particularly useful for _salt and pepper noise_ or impulse noise. A median mask essentially forces the value of a pixel to be like its neighbours. The median filter thus, represents the 50th percentile of ranked pixel intensities. The so called _max filter_ targets the 100th percentile, used for finding the brightest points in an image, similarly for the _min filter.
+	Order-statistics or nonlinear filters perform smoothning based on the ranking of intensity values. A well known filter is the median filter which is particularly useful for _salt and pepper noise_ or impulse noise. A median mask essentially forces the value of a pixel to be like its neighbours. The median filter thus, represents the 50th percentile of ranked pixel intensities. The so called _max filter_ targets the 100th percentile, used for finding the brightest points in an image, similarly for the _min filter.
 
 ## Sharpening Spatial Filters
 The principal objective of sharpening is to highlight transitions in intensity. Uses of image sharpening vary and include applications ranging from electronic printing and medical imaging to industrial inspection and autonomous guidance in military systems. Because blurring is accomplished by averaging of pixel values implemented through integration, it is logical to conclude that sharpening can be accomplished by spatial differentiation, specifically by the Laplacian $\nabla^2f(x,y)$.
